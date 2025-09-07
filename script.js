@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function(){
         <p><strong>Proceso seguro:</strong> El pago se debe realizar antes de recibir las boletas. Tras el pago hacemos un checking y la transferencia de la boleta se realiza en 24-48 horas al correo registrado.</p>
         <p>Contacta por WhatsApp para finalizar la compra:</p>
         <p><a class="btn primary" href="https://wa.me/573117312218?text=Hola%20quiero%20comprar%20${encodeURIComponent(event.title)}%20-%20precio%20${encodeURIComponent(event.price)}" target="_blank">Escribir por WhatsApp</a></p>
-        <p class="small">Nota: Reemplaza este flujo por una integración de pago (Wompi/PayU) cuando estés listo.</p>
+        
       `;
       openModal(html);
     });
